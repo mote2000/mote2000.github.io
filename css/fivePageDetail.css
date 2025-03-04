@@ -1,0 +1,16 @@
+div.fivePageContainer{
+     height: 800px;
+    width: 940px;
+}
+.fivePageContainer .threeImgBox div{
+    margin:10px 53px 10px 0px;
+}
+.fivePageContainer .threeImgBox div img{
+    width: 160px;
+    height: 160px;
+}
+.fivePageContainer .threeImgBox div p{
+    width: 160px;
+   text-align: center;
+    font-size: 12px;
+}

@@ -1,0 +1,35 @@
+@media screen and (max-width: 500px) {
+
+    .contentCon li:nth-child(1){
+        width: 290px;
+        height: 145px;
+        background-size: 100% 100%;
+        top: 77px;
+        left: 7%;
+    }
+    .contentCon li:nth-child(2) {
+        left: 41%;
+        top: 190px;
+    }
+    .contentCon li:nth-child(3) {
+        left: 9%;
+        top: 0px;
+    }
+    .contentCon li:nth-child(4) {
+        left: 9%;
+        top: 221px;
+    }
+    .contentCon li:nth-child(5) {
+        left: 66%;
+        top: 14px;
+    }.contentCon li:nth-child(6) {
+             left: 66%;
+             top: 223px;
+    }
+    .contentCon li:nth-child(7) {
+        left: 41%;
+        top: 347px;
+    }
+
+
+}

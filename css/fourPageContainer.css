@@ -1,0 +1,14 @@
+div.fivePageContainer{
+    height: 1190px;
+    width: 940px;
+}
+.phoneImg img{
+    width: 174px;
+    height: 310px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.textCenter{
+    width: 612px;
+    text-align: center;
+}

@@ -1,0 +1,39 @@
+@media screen and (max-width: 500px) {
+    .container .P{
+        width: 100%;
+    }
+    .phoneImg{
+       display: flex;
+        justify-content:space-around;
+    }
+    .phoneImg img{
+        width: 94px;
+        height: 167px;
+        margin-left: 0;
+    }
+    .phoneImg img:first-child{
+        margin-left: 0px;
+    }
+    .phoneImg img:first-child{
+        margin-left: 1%;
+    }
+    .textCenter{
+        width: 100%!important;
+    }
+    .fivePageContainer .threeImgBox div{
+        margin-right:0 ;
+        width: 140px;
+
+
+    }
+    .fivePageContainer .threeImgBox div img{
+        width: 140px;
+        height: 140px;
+    }
+    .fivePageContainer .threeImgBox{
+        display: flex;
+        justify-content:space-around;
+        flex-wrap:wrap;
+    }
+
+}

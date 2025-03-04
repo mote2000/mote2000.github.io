@@ -1,0 +1,480 @@
+@media screen and (max-width: 500px) {
+    body {
+        overflow-x: hidden;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .con {
+        width: 100%;
+    }
+
+    .header {
+        z-index: 99;
+        width: 100%;
+        height: auto;
+        line-height: 65px;
+        box-shadow: none;
+
+    }
+
+    .logo {
+        width: 100%;
+        box-shadow: 0px 1px 90px 1px #d3d4d7;
+
+    }
+
+    .nav .logo {
+        padding-left: 15px;
+    }
+
+    .logo a {
+
+        vertical-align: -9px;
+    }
+
+    .header-mobil {
+        position: absolute;
+        height: auto;
+        overflow: auto;
+        background-color: #fff;
+        box-shadow: 0px 5px 50px 3px #d3d4d7;
+        transition: all 0.1s;
+        width: 0;
+        z-index: 999;
+
+    }
+
+    .menu-click {
+        display: inline-block;
+        width: 42px;
+        height: 42px;
+        margin-left: 15px;
+        margin-bottom: -2px;
+    }
+
+    .nav li {
+        height: 65px;
+        float: none;
+        margin-left: 0px;
+        width: 90%;
+        padding: 0 5%;
+
+    }
+
+    .imgBox {
+        height: 200px;
+        overflow: hidden;
+    }
+
+    .imgBox img {
+        width: 960px;
+        height: 200px;
+        margin-left: -460px;
+    }
+
+    .fontsCon, .fontsCon1, .fontsCon2 {
+
+        left: 7%;
+        width: 90%;
+    }
+
+    .fontsCon {
+        top: 21%;
+    }
+
+    .fontsCon1 {
+        top: 33%;
+    }
+
+    .fontsCon2 {
+        top: 61%;
+    }
+
+    .fontsCon li {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .fontsCon li b {
+
+        font-weight: 400;
+    }
+
+    .fontsCon1 li:nth-child(1) {
+        font-size: 16px;
+    }
+
+    .fontsCon1 li:nth-child(2) {
+        font-size: 12px;
+    }
+
+    .fontsCon2 li {
+        font-size: 12px;
+        width: 45%;
+
+    }
+
+    .service {
+        height: 234px;
+    }
+
+    .service ul {
+        width: 96%;
+        padding: 2%;
+        display: flex;
+    }
+
+    .service ul li:hover {
+        transform: none;
+        box-shadow: none;
+    }
+
+    .service ul li {
+        flex: 1;
+        height: 74%;
+        margin-top: 5%;
+        padding-bottom: 2%;
+    }
+
+    .service ul li .iconfont {
+        width: 60px;
+        height: 60px;
+        margin-top: 19%;
+
+    }
+
+    .service ul li .iconfont3 {
+        width: 95px;
+        background-size: 100% 100%;
+        border-left: 3px solid #fff;
+    }
+
+    #threePage .after, #threePage .front, #fourPage .after, #fourPage .front, #fivePage .after {
+        opacity: 1;
+    }
+
+    .service ul li h4 {
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 16px;
+    }
+
+    .service ul li p {
+        height: 22%;
+
+        font-size: 12px;
+        font-weight: 400;
+        padding: 0 2%;
+    }
+
+    /*2*/
+    #twoPage .newLeft {
+        margin-top: 0px;
+        width: 100%;
+        height: 400px;
+        position: relative;
+        float: left;
+        transform-style: preserve-3d;
+    }
+
+    .firstCircle, .midCircle, .lastCircle {
+        width: 150px;
+        height: 150px;
+    }
+
+    @keyframes opac {
+        from {
+            opacity: 1;
+           /* width: 150px;
+            height: 150px;*/
+            transform: translate(-50%, -50%) scale(1)
+        }
+        to {
+            opacity: 0;
+           /* width: 400px;
+            height: 400px;*/
+              transform: translate(-50%, -50%) scale(2.4)
+
+        }
+    }
+    #twoPage .pageRight {
+        margin-top: 0;
+        padding-right: 30px;
+        margin-left: 30px;
+    }
+
+    .pageRight .newText {
+        width: 100%;
+    }
+
+    /*3*/
+    #fivePage {
+        overflow: hidden;
+    }
+
+    #fivePage .after {
+        top: -0px;
+        left: 0;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: 97% 81%;
+        background-position: 20px 4px;
+        height: 293px;
+
+    }
+
+    #fivePage .after > div {
+        font-size: 12px;
+    }
+
+    #fivePage .pageRight h5 {
+        margin-top: 0;
+    }
+
+    #fivePage .con {
+        position: relative;
+        background-position: -62px 477px;
+    }
+
+    #fivePage .pageRight {
+        position: relative;
+        z-index: 10;
+        top: 270px;
+        margin: 30px;
+
+    }
+
+    #fivePage .after > div:nth-child(1) {
+        left: 124px;
+width: 84px;
+
+
+    }
+
+    #fivePage .after > div:nth-child(2) {
+        left:  252px;
+        top: 12px;
+        width: 84px;
+        transform: translate(-5px,9px);
+
+    }
+
+    #fivePage .after > div:nth-child(3) {
+        left: 280px;
+        top: 75px;
+        width: 60px;
+
+    }
+
+    #fivePage .after > div:nth-child(4) {
+        left: 242px;
+        top: 199px;
+
+    }
+
+    #fivePage .after > div:nth-child(5) {
+        left: 63px;
+        top: 225px;
+
+    }
+
+    #fivePage .after > div:nth-child(6) {
+        left: 12px;
+        top: 172px;
+    }
+
+    #fivePage .after > div:nth-child(7) {
+        left: 13px;
+        top: 83px;
+        width: 84px;
+
+    }
+
+    #fivePage .after > div:nth-child(8) {
+        left: 25px;
+
+    }
+
+    #fivePage .ML {
+        width: 100%;
+    }
+
+    #fivePage .newCon > ul:nth-child(1) {
+        margin-right: 15px;
+    }
+
+    #fivePage .newCon > ul > li h5 {
+        height: auto;
+    }
+
+    #fivePage .pageLeft {
+        width: 100%;
+        height: 293px;
+        position: absolute;
+        top: 0px;
+        margin: 0;
+    }
+
+    /*4*/
+    #threePage {
+        overflow: hidden;
+    }
+
+    #threePage .pageRight {
+        margin: 0px 30px 0 7%;
+        text-align: justify;
+    }
+
+    #threePage .pageLeft {
+        height: 283px;
+        margin: 20px 0 0 0;
+        width: 100%;
+        background-size: 100% 100%;
+    }
+    #threePage .pageLeft .in{
+
+        background-size: 100% 100%;
+    }
+
+    #threePage .after {
+        width: 314px;
+        height: 195px;
+    }
+
+    #threePage .front {
+        width: 120px;
+        height: 153px;
+        left: 92px;
+    }
+
+    #threePage .pageRight h5 {
+        margin: 0;
+    }
+
+    /*5*/
+    #fourPage {
+        overflow: hidden;
+    }
+
+    #fourPage .pageLeft {
+        width: 100%;
+        top: -600px;
+        height: 234px;
+        margin-top: 0;
+    }
+
+    #fourPage .pageLeft .front {
+        width: 105px;
+        height: 187px;
+        left: 31%;
+        bottom: 3px;
+        background-size: 100% 100%;
+    }
+
+    #fourPage .pageLeft .after {
+        width: 290px;
+        height: 155px;
+        background-size: 100% 100%;
+        margin-bottom: -45px;
+        margin-left: 14%;
+    }
+
+    #fourPage .pageRight {
+        position: relative;
+        margin: 235px 0 0 0;
+        padding: 0;
+
+    }
+
+    #fourPage .pageRight li {
+        padding: 0;
+        padding: 0;
+    }
+
+    #fourPage .title {
+        margin: 0% 7% 0 7%;
+
+    }
+
+    #fourPage .iconCon div {
+        margin: 0;
+    }
+
+    #fourPage .iconCon {
+
+        width: 295px;
+        margin: 8px auto 0;
+
+    }
+
+    #fourPage .iconCon span {
+        width: 70px;
+        height: 70px;
+    }
+
+    #fourPage .iconCon span img {
+        width: 45px;
+        height: 45px;
+    }
+
+    #fourPage .pageRight li:nth-child(2) {
+
+        margin: 0 7% 0 7%;
+    }
+
+    #fourPage .pageRight li:nth-child(4) {
+
+        top: 37%;
+
+    }
+
+    #sixPage {
+        height: 400px;
+    }
+
+    #sixPage .suc {
+        padding-top: 10%;
+    }
+
+    #sixPage .swiper-container {
+        width: 250px;
+        padding-left: 0;
+    }
+
+    div.swiper-button-prev {
+        left: 6%;
+        top: 48%;
+    }
+
+    div.swiper-button-next {
+        right: 6%;
+        top: 48%;
+    }
+
+    #sixPage .swiper-container {
+
+    }
+
+    #sixPage .swiper-slide p {
+        width: 250px;
+    }
+
+    .footer {
+        height: 170px;
+    }
+
+    .footer ul {
+        width: auto;
+        font-size: 12px;
+        padding-top: 43px;
+    }
+
+    .footer ul li img {
+        display: none;
+    }
+
+}
